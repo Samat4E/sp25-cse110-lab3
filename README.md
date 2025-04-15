@@ -10,4 +10,6 @@ This is my lab project for meeting minutes using HTML only (no CSS or JavaScript
 - Image of our whiteboard brainstorm (pomodoro.png)
 - Interactive feedback form
 
-🔗 **Live Site**: 
+🔗 **Live Site**:https://samat4e.github.io/Lab2_Starter/
+
+ 
