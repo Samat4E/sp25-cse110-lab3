@@ -1,15 +1,1 @@
-# Lab 2 - Starter
-# Pomodoro Team Meeting Minutes
-
-This is my lab project for meeting minutes using HTML only (no CSS or JavaScript).
-
-✅ Project includes:
-- Valid semantic HTML
-- Agenda and attendance list
-- Audio and video recordings
-- Image of our whiteboard brainstorm (pomodoro.png)
-- Interactive feedback form
-
-🔗 **Live Site**:https://samat4e.github.io/Lab2_Starter/
-
- 
+https://SAMAT4E.github.io/sp25-cse110-lab3
