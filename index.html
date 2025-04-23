@@ -2,48 +2,88 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Lab 2 - Meeting Minutes</title>
-
+  <title>Lab 3 - Meeting Minutes</title>
   <meta name="description" content="Minutes from our Mobile App Wireframe Review meeting.">
-  <meta name="description" content="Minutes from our Pomodoro brainstorming meeting.">
-  
+
+  <!-- ✅ External Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+  <!-- ✅ External CSS File -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- ✅ Internal CSS -->
   <style>
+    :root {
+      --main-bg: #f0f0f0;
+      --main-color: #2b7a78;
+      --accent-color: #ff6600;
+    }
+
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f0f0f0;
+      font-family: 'Roboto', sans-serif;
+      background-color: var(--main-bg);
       margin: 20px;
     }
+
     header {
-      background-color: #2b7a78;
+      background-color: var(--main-color);
       color: white;
       padding: 15px;
       text-align: center;
     }
+
     nav a {
       color: white;
       text-decoration: none;
     }
+
     nav a:hover {
       text-decoration: underline;
     }
+
     section {
       background-color: white;
       padding: 15px;
       margin-top: 15px;
       border-radius: 8px;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      position: relative;
     }
+
     footer {
       text-align: center;
       margin-top: 20px;
       font-size: 0.9em;
       color: #555;
     }
+
+    img {
+      max-width: 100%;
+      border: 2px dashed #bbb;
+    }
+
+    video {
+      max-width: 100%;
+    }
+
+    li:hover {
+      background-color: #e8f5e9;
+    }
+
+    section:has(video) {
+      border: 2px solid #ccc;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 1.5rem;
+      }
+    }
   </style>
 </head>
 <body>
 
-  <header>
+  <header id="main-header">
     <h1>Mobile App Wireframe Review</h1>
     <nav>
       <a href="#agenda">Jump to Agenda</a>
@@ -60,7 +100,7 @@
     <section>
       <h3>Attendance</h3>
       <ul>
-        <li>Samson Gebrekidan</li>
+        <li class="highlight">Samson Gebrekidan</li>
         <li>Hana Tesfaye</li>
         <li>Miguel Rosas</li>
       </ul>
@@ -87,13 +127,13 @@
 
     <section>
       <h3>Comments</h3>
-      <p>Hana: “We should test layout on smaller mobile screens.”</p>
+      <p style="color: orange;">Hana: “We should test layout on smaller mobile screens.”</p>
       <p>Miguel: “Consider using icons instead of text for menu navigation.”</p>
     </section>
 
     <section>
       <h3>Whiteboard Image</h3>
-      <img src="pomodoro.png" alt="Wireframe brainstorming sketch" width="300">
+      <img src="pomodoro.png" alt="Wireframe brainstorming sketch">
     </section>
 
     <section>
@@ -106,7 +146,7 @@
       </audio>
 
       <h4>Video:</h4>
-      <video controls width="320">
+      <video controls>
         <source src="video.mp4" type="video/mp4">
         Your browser does not support the video element.
       </video>
