@@ -1,3 +1,3 @@
 ## 🔗 GitHub Pages Site
 
-[Click here to view the live site](https://Samat4E.github.io/sp25-cse110-lab3)
+[Click here to view the live site](http://127.0.0.1:5500/index.html)
