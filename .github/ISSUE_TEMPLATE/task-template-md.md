@@ -1,7 +1,7 @@
 ---
 name: task-template.md
 about: Use this template for breaking down lab tasks
-title: ''
+title: " Lab Task Template"
 labels: ''
 assignees: ''
 
